@@ -1,0 +1,126 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6571258000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open the Canvis webapp",
+            "match": {
+              "location": "LoginSteps.openTheCanvisWebapp()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 29,
+        "name": "Verify login successfully",
+        "description": "",
+        "id": "login-page;verify-login-successfully;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 118716200,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I input to Email address with \"khanh@0409.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "khanh@0409.com",
+                  "offset": 31
+                }
+              ],
+              "location": "LoginSteps.iInputToEmailAddressWith(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 89024700,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I input to Password with \"123123123123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123123123123",
+                  "offset": 26
+                }
+              ],
+              "location": "LoginSteps.iInputToPasswordWith(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1994780400,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I click to SignIn button",
+            "match": {
+              "location": "LoginSteps.iClickToSignInButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3001195700,
+              "error_message": "java.lang.NullPointerException\r\n\tat java.util.Objects.requireNonNull(Objects.java:203)\r\n\tat org.openqa.selenium.support.ui.FluentWait.\u003cinit\u003e(FluentWait.java:106)\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.\u003cinit\u003e(WebDriverWait.java:85)\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.\u003cinit\u003e(WebDriverWait.java:45)\r\n\tat commons.BasePage.waitForElementVisible(BasePage.java:489)\r\n\tat pageObjects.ProjectScreenPO.isCreateProjectDisplayed(ProjectScreenPO.java:15)\r\n\tat stepDefinitions.ProjectScreenSteps.iVerifyProjectScreen(ProjectScreenSteps.java:17)\r\n\tat ✽.Then I verify Project screen(login.feature:25)\r\n",
+              "status": "failed"
+            },
+            "line": 25,
+            "name": "I verify Project screen",
+            "match": {
+              "location": "ProjectScreenSteps.iVerifyProjectScreen()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Login"
+          },
+          {
+            "line": 20,
+            "name": "@Create"
+          }
+        ]
+      }
+    ],
+    "name": "Login Page",
+    "description": "",
+    "id": "login-page",
+    "keyword": "Feature",
+    "uri": "login.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Login"
+      }
+    ]
+  }
+]
