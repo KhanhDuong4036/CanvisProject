@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="cucumberOptions.TestRunner" time="0.007" tests="15" errors="6" skipped="9" failures="0">
+<testsuite name="cucumberOptions.TestRunner" time="0.002" tests="42" errors="0" skipped="0" failures="0">
   <properties>
-    <property name="idea.version" value="2021.2"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_261\jre\bin"/>
     <property name="java.vm.version" value="25.261-b12"/>
@@ -27,26 +26,26 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="maven.ext.class.path" value="D:\Automation\01 - Software\ideaIC-2021.2.win\plugins\maven\lib\maven-event-listener.jar"/>
-    <property name="classworlds.conf" value="D:\Automation\01 - Software\ideaIC-2021.2.win\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="classworlds.conf" value="D:\Automation\01 - Software\apache-maven-3.8.1-bin\apache-maven-3.8.1\bin\..\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_261\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;&quot;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\bin&quot;;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;D:\Python;C:\webdrivers;C:\Program Files\Java\jdk1.8.0_261\bin;D:\Automation\01 - Software\cmder_mini\bin;D:\Automation\01 - Software\apache-maven-3.8.1-bin\apache-maven-3.8.1\bin;D:\Automation\01 - Software\allure-2.14.0\allure-2.14.0\bin;D:\Python\Scripts\;D:\Python\;C:\Users\This PC\AppData\Local\Microsoft\WindowsApps;;D:\Python_Automation\PyCharm Community Edition 2020.2.3\bin;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2\bin;;."/>
-    <property name="maven.conf" value="D:\Automation\01 - Software\ideaIC-2021.2.win\plugins\maven\lib\maven3/conf"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_261\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Automation\01 - Software\cmder_mini\vendor\conemu-maximus5\ConEmu\Scripts;D:\Automation\01 - Software\cmder_mini\vendor\conemu-maximus5;D:\Automation\01 - Software\cmder_mini\vendor\conemu-maximus5\ConEmu;&quot;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\bin&quot;;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;D:\Python;C:\webdrivers;C:\Program Files\Java\jdk1.8.0_261\bin;D:\Automation\01 - Software\cmder_mini\bin;D:\Automation\01 - Software\apache-maven-3.8.1-bin\apache-maven-3.8.1\bin;D:\Automation\01 - Software\allure-2.14.0\allure-2.14.0\bin;D:\Python\Scripts\;D:\Python\;C:\Users\This PC\AppData\Local\Microsoft\WindowsApps;;D:\Python_Automation\PyCharm Community Edition 2020.2.3\bin;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2\bin;;."/>
+    <property name="maven.conf" value="D:\Automation\01 - Software\apache-maven-3.8.1-bin\apache-maven-3.8.1\bin\../conf"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="D:\Automation\01 - Software\apache-maven-3.8.1-bin\apache-maven-3.8.1\bin\..\lib\jansi-native"/>
     <property name="user.home" value="C:\Users\This PC"/>
     <property name="user.timezone" value="Asia/Bangkok"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="java.specification.version" value="1.8"/>
-    <property name="file.encoding" value="UTF-8"/>
+    <property name="file.encoding" value="Cp1252"/>
     <property name="user.name" value="This PC"/>
-    <property name="java.class.path" value="D:\Automation\01 - Software\ideaIC-2021.2.win\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;D:\Automation\01 - Software\ideaIC-2021.2.win\plugins\maven\lib\maven3\boot\plexus-classworlds.license;D:\Automation\01 - Software\ideaIC-2021.2.win\lib\idea_rt.jar"/>
+    <property name="java.class.path" value="D:\Automation\01 - Software\apache-maven-3.8.1-bin\apache-maven-3.8.1\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_261\jre"/>
-    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2021.2 test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test verify"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -54,178 +53,57 @@
     <property name="java.version" value="1.8.0_261"/>
     <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_261\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_261\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_261\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="D:\Automation\01 - Software\ideaIC-2021.2.win\plugins\maven\lib\maven3"/>
+    <property name="maven.home" value="D:\Automation\01 - Software\apache-maven-3.8.1-bin\apache-maven-3.8.1\bin\.."/>
     <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="Given Open forgot password screen" classname="|  | Please enter valid email address |" time="0.003">
-    <error type="java.lang.NullPointerException:"><![CDATA[java.lang.NullPointerException: null
-	at java.util.Objects.requireNonNull(Objects.java:203)
-	at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:106)
-	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:85)
-	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:45)
-	at commons.BasePage.waitForElementVisible(BasePage.java:489)
-	at pageObjects.LoginPO.clickToForgotPasswordButton(LoginPO.java:34)
-	at stepDefinitions.ResetPasswordSteps.openForgotPasswordScreen(ResetPasswordSteps.java:21)
-	at ✽.Given Open forgot password screen(resetPasswordScreen.feature:4)
-]]></error>
-    <system-out><![CDATA[Feature: Reset Password Page
-
-  @ForgotAndResetPassword
-  Scenario Outline: Verify Forgot and Reset Password function          # resetPasswordScreen.feature:7
-    And I input to Email address in Reset Password Page with "<Email>"
-    And I click to Reset Password button
-    Then I verify "<ErrorResetMessage>" is displayed
-
-    Examples: 
-]]></system-out>
-  </testcase>
-  <testcase name="|  | Please enter valid email address |" classname="|  | Please enter valid email address |" time="0.003">
-    <error type="java.lang.NullPointerException:"><![CDATA[java.lang.NullPointerException: null
-	at java.util.Objects.requireNonNull(Objects.java:203)
-	at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:106)
-	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:85)
-	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:45)
-	at commons.BasePage.waitForElementVisible(BasePage.java:489)
-	at pageObjects.LoginPO.clickToForgotPasswordButton(LoginPO.java:34)
-	at stepDefinitions.ResetPasswordSteps.openForgotPasswordScreen(ResetPasswordSteps.java:21)
-	at ✽.Given Open forgot password screen(resetPasswordScreen.feature:4)
-]]></error>
-  </testcase>
-  <testcase name="And I input to Email address in Reset Password Page with &quot;&quot;" classname="|  | Please enter valid email address |" time="0">
-    <skipped/>
-    <system-out><![CDATA[
-  Background:                         # resetPasswordScreen.feature:3
-    Given Open forgot password screen # ResetPasswordSteps.openForgotPasswordScreen()
-      java.lang.NullPointerException
-      	at java.util.Objects.requireNonNull(Objects.java:203)
-      	at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:106)
-      	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:85)
-      	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:45)
-      	at commons.BasePage.waitForElementVisible(BasePage.java:489)
-      	at pageObjects.LoginPO.clickToForgotPasswordButton(LoginPO.java:34)
-      	at stepDefinitions.ResetPasswordSteps.openForgotPasswordScreen(ResetPasswordSteps.java:21)
-      	at ?.Given Open forgot password screen(resetPasswordScreen.feature:4)
-
-]]></system-out>
-  </testcase>
-  <testcase name="And I click to Reset Password button" classname="|  | Please enter valid email address |" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="Then I verify &quot;Please enter valid email address&quot; is displayed" classname="|  | Please enter valid email address |" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="Given Open forgot password screen" classname="| khanh@khanhduong.com | Email not found |" time="0">
-    <error type="java.lang.NullPointerException:"><![CDATA[java.lang.NullPointerException: null
-	at java.util.Objects.requireNonNull(Objects.java:203)
-	at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:106)
-	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:85)
-	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:45)
-	at commons.BasePage.waitForElementVisible(BasePage.java:489)
-	at pageObjects.LoginPO.clickToForgotPasswordButton(LoginPO.java:34)
-	at stepDefinitions.ResetPasswordSteps.openForgotPasswordScreen(ResetPasswordSteps.java:21)
-	at ✽.Given Open forgot password screen(resetPasswordScreen.feature:4)
-]]></error>
-    <system-out><![CDATA[
-  @ForgotAndResetPassword
-  Scenario Outline: Verify Forgot and Reset Password function     # resetPasswordScreen.feature:14
-    And I input to Email address in Reset Password Page with ""   # ResetPasswordSteps.iInputToEmailAddressInResetPasswordPageWith(String)
-    And I click to Reset Password button                          # ResetPasswordSteps.iClickToResetPasswordButton()
-    Then I verify "Please enter valid email address" is displayed # ResetPasswordSteps.iVerifyIsDisplayed(String)
-]]></system-out>
-  </testcase>
-  <testcase name="| khanh@khanhduong.com | Email not found |" classname="| khanh@khanhduong.com | Email not found |" time="0.001">
-    <error type="java.lang.NullPointerException:"><![CDATA[java.lang.NullPointerException: null
-	at java.util.Objects.requireNonNull(Objects.java:203)
-	at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:106)
-	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:85)
-	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:45)
-	at commons.BasePage.waitForElementVisible(BasePage.java:489)
-	at pageObjects.LoginPO.clickToForgotPasswordButton(LoginPO.java:34)
-	at stepDefinitions.ResetPasswordSteps.openForgotPasswordScreen(ResetPasswordSteps.java:21)
-	at ✽.Given Open forgot password screen(resetPasswordScreen.feature:4)
-]]></error>
-  </testcase>
-  <testcase name="And I input to Email address in Reset Password Page with &quot;khanh@khanhduong.com&quot;" classname="| khanh@khanhduong.com | Email not found |" time="0">
-    <skipped/>
-    <system-out><![CDATA[
-  Background:                         # resetPasswordScreen.feature:3
-    Given Open forgot password screen # ResetPasswordSteps.openForgotPasswordScreen()
-      java.lang.NullPointerException
-      	at java.util.Objects.requireNonNull(Objects.java:203)
-      	at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:106)
-      	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:85)
-      	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:45)
-      	at commons.BasePage.waitForElementVisible(BasePage.java:489)
-      	at pageObjects.LoginPO.clickToForgotPasswordButton(LoginPO.java:34)
-      	at stepDefinitions.ResetPasswordSteps.openForgotPasswordScreen(ResetPasswordSteps.java:21)
-      	at ?.Given Open forgot password screen(resetPasswordScreen.feature:4)
-
-]]></system-out>
-  </testcase>
-  <testcase name="And I click to Reset Password button" classname="| khanh@khanhduong.com | Email not found |" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="Then I verify &quot;Email not found&quot; is displayed" classname="| khanh@khanhduong.com | Email not found |" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="Given Open forgot password screen" classname="| khanh@khanh | Please enter valid email address |" time="0">
-    <error type="java.lang.NullPointerException:"><![CDATA[java.lang.NullPointerException: null
-	at java.util.Objects.requireNonNull(Objects.java:203)
-	at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:106)
-	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:85)
-	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:45)
-	at commons.BasePage.waitForElementVisible(BasePage.java:489)
-	at pageObjects.LoginPO.clickToForgotPasswordButton(LoginPO.java:34)
-	at stepDefinitions.ResetPasswordSteps.openForgotPasswordScreen(ResetPasswordSteps.java:21)
-	at ✽.Given Open forgot password screen(resetPasswordScreen.feature:4)
-]]></error>
-    <system-out><![CDATA[
-  @ForgotAndResetPassword
-  Scenario Outline: Verify Forgot and Reset Password function                       # resetPasswordScreen.feature:15
-    And I input to Email address in Reset Password Page with "khanh@khanhduong.com" # ResetPasswordSteps.iInputToEmailAddressInResetPasswordPageWith(String)
-    And I click to Reset Password button                                            # ResetPasswordSteps.iClickToResetPasswordButton()
-    Then I verify "Email not found" is displayed                                    # ResetPasswordSteps.iVerifyIsDisplayed(String)
-]]></system-out>
-  </testcase>
-  <testcase name="| khanh@khanh | Please enter valid email address |" classname="| khanh@khanh | Please enter valid email address |" time="0">
-    <error type="java.lang.NullPointerException:"><![CDATA[java.lang.NullPointerException: null
-	at java.util.Objects.requireNonNull(Objects.java:203)
-	at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:106)
-	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:85)
-	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:45)
-	at commons.BasePage.waitForElementVisible(BasePage.java:489)
-	at pageObjects.LoginPO.clickToForgotPasswordButton(LoginPO.java:34)
-	at stepDefinitions.ResetPasswordSteps.openForgotPasswordScreen(ResetPasswordSteps.java:21)
-	at ✽.Given Open forgot password screen(resetPasswordScreen.feature:4)
-]]></error>
-  </testcase>
-  <testcase name="And I input to Email address in Reset Password Page with &quot;khanh@khanh&quot;" classname="| khanh@khanh | Please enter valid email address |" time="0">
-    <skipped/>
-    <system-out><![CDATA[
-  Background:                         # resetPasswordScreen.feature:3
-    Given Open forgot password screen # ResetPasswordSteps.openForgotPasswordScreen()
-      java.lang.NullPointerException
-      	at java.util.Objects.requireNonNull(Objects.java:203)
-      	at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:106)
-      	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:85)
-      	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:45)
-      	at commons.BasePage.waitForElementVisible(BasePage.java:489)
-      	at pageObjects.LoginPO.clickToForgotPasswordButton(LoginPO.java:34)
-      	at stepDefinitions.ResetPasswordSteps.openForgotPasswordScreen(ResetPasswordSteps.java:21)
-      	at ?.Given Open forgot password screen(resetPasswordScreen.feature:4)
-
-]]></system-out>
-  </testcase>
-  <testcase name="And I click to Reset Password button" classname="| khanh@khanh | Please enter valid email address |" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="Then I verify &quot;Please enter valid email address&quot; is displayed" classname="| khanh@khanh | Please enter valid email address |" time="0">
-    <skipped/>
-  </testcase>
+  <testcase name="Given Open the Canvis webapp" classname="| khanh@2203.com |  |" time="0.001"/>
+  <testcase name="When I input to Email address with &quot;khanh@2203.com&quot;" classname="| khanh@2203.com |  |" time="0"/>
+  <testcase name="And I input to Password with &quot;&quot;" classname="| khanh@2203.com |  |" time="0"/>
+  <testcase name="And I click to SignIn button" classname="| khanh@2203.com |  |" time="0"/>
+  <testcase name="Then I verify the error message is displayed" classname="| khanh@2203.com |  |" time="0"/>
+  <testcase name="| khanh@2203.com |  |" classname="| khanh@2203.com |  |" time="0"/>
+  <testcase name="Given Open the Canvis webapp" classname="|  | 123123123123 |" time="0"/>
+  <testcase name="When I input to Email address with &quot;&quot;" classname="|  | 123123123123 |" time="0"/>
+  <testcase name="And I input to Password with &quot;123123123123&quot;" classname="|  | 123123123123 |" time="0"/>
+  <testcase name="And I click to SignIn button" classname="|  | 123123123123 |" time="0"/>
+  <testcase name="Then I verify the error message is displayed" classname="|  | 123123123123 |" time="0"/>
+  <testcase name="|  | 123123123123 |" classname="|  | 123123123123 |" time="0"/>
+  <testcase name="Given Open the Canvis webapp" classname="|  |  |" time="0"/>
+  <testcase name="When I input to Email address with &quot;&quot;" classname="|  |  |" time="0"/>
+  <testcase name="And I input to Password with &quot;&quot;" classname="|  |  |" time="0"/>
+  <testcase name="And I click to SignIn button" classname="|  |  |" time="0"/>
+  <testcase name="Then I verify the error message is displayed" classname="|  |  |" time="0"/>
+  <testcase name="|  |  |" classname="|  |  |" time="0"/>
+  <testcase name="Given Open the Canvis webapp" classname="| khanh@0409.com | 123123123123 |" time="0"/>
+  <testcase name="When I input to Email address with &quot;khanh@0409.com&quot;" classname="| khanh@0409.com | 123123123123 |" time="0"/>
+  <testcase name="And I input to Password with &quot;123123123123&quot;" classname="| khanh@0409.com | 123123123123 |" time="0"/>
+  <testcase name="And I click to SignIn button" classname="| khanh@0409.com | 123123123123 |" time="0"/>
+  <testcase name="Then I verify Project screen" classname="| khanh@0409.com | 123123123123 |" time="0"/>
+  <testcase name="| khanh@0409.com | 123123123123 |" classname="| khanh@0409.com | 123123123123 |" time="0"/>
+  <testcase name="Given Open Canvis webapp" classname="|  | Please enter valid email address |" time="0"/>
+  <testcase name="When I click to Forgot Password button" classname="|  | Please enter valid email address |" time="0"/>
+  <testcase name="When I input to Email address in Reset Password Page with &quot;&quot;" classname="|  | Please enter valid email address |" time="0"/>
+  <testcase name="And I click to Reset Password button" classname="|  | Please enter valid email address |" time="0"/>
+  <testcase name="Then I verify &quot;Please enter valid email address&quot; is displayed" classname="|  | Please enter valid email address |" time="0"/>
+  <testcase name="|  | Please enter valid email address |" classname="|  | Please enter valid email address |" time="0"/>
+  <testcase name="Given Open Canvis webapp" classname="| khanh@khanhduong.com | Email not found |" time="0"/>
+  <testcase name="When I click to Forgot Password button" classname="| khanh@khanhduong.com | Email not found |" time="0"/>
+  <testcase name="When I input to Email address in Reset Password Page with &quot;khanh@khanhduong.com&quot;" classname="| khanh@khanhduong.com | Email not found |" time="0"/>
+  <testcase name="And I click to Reset Password button" classname="| khanh@khanhduong.com | Email not found |" time="0"/>
+  <testcase name="Then I verify &quot;Email not found&quot; is displayed" classname="| khanh@khanhduong.com | Email not found |" time="0"/>
+  <testcase name="| khanh@khanhduong.com | Email not found |" classname="| khanh@khanhduong.com | Email not found |" time="0.001"/>
+  <testcase name="Given Open Canvis webapp" classname="| khanh@khanh | Please enter valid email address |" time="0"/>
+  <testcase name="When I click to Forgot Password button" classname="| khanh@khanh | Please enter valid email address |" time="0"/>
+  <testcase name="When I input to Email address in Reset Password Page with &quot;khanh@khanh&quot;" classname="| khanh@khanh | Please enter valid email address |" time="0"/>
+  <testcase name="And I click to Reset Password button" classname="| khanh@khanh | Please enter valid email address |" time="0"/>
+  <testcase name="Then I verify &quot;Please enter valid email address&quot; is displayed" classname="| khanh@khanh | Please enter valid email address |" time="0"/>
+  <testcase name="| khanh@khanh | Please enter valid email address |" classname="| khanh@khanh | Please enter valid email address |" time="0"/>
 </testsuite>

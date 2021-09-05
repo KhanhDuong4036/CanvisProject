@@ -8,46 +8,40 @@ formatter.feature({
   "tags": [
     {
       "line": 1,
-      "name": "@Login"
+      "name": "@LoginScreen"
     }
   ]
 });
 formatter.scenarioOutline({
-  "line": 8,
+  "line": 7,
   "name": "Verify the functions of Login page",
   "description": "",
   "id": "login-page;verify-the-functions-of-login-page",
   "type": "scenario_outline",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "line": 7,
-      "name": "@SignIn"
-    }
-  ]
+  "keyword": "Scenario Outline"
 });
 formatter.step({
-  "line": 9,
+  "line": 8,
   "name": "I input to Email address with \"\u003cEmail\u003e\"",
   "keyword": "When "
 });
 formatter.step({
-  "line": 10,
+  "line": 9,
   "name": "I input to Password with \"\u003cPassword\u003e\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 11,
+  "line": 10,
   "name": "I click to SignIn button",
   "keyword": "And "
 });
 formatter.step({
-  "line": 12,
+  "line": 11,
   "name": "I verify the error message is displayed",
   "keyword": "Then "
 });
 formatter.examples({
-  "line": 14,
+  "line": 13,
   "name": "",
   "description": "",
   "id": "login-page;verify-the-functions-of-login-page;",
@@ -57,7 +51,7 @@ formatter.examples({
         "Email",
         "Password"
       ],
-      "line": 15,
+      "line": 14,
       "id": "login-page;verify-the-functions-of-login-page;;1"
     },
     {
@@ -65,7 +59,7 @@ formatter.examples({
         "khanh@2203.com",
         ""
       ],
-      "line": 16,
+      "line": 15,
       "id": "login-page;verify-the-functions-of-login-page;;2"
     },
     {
@@ -73,7 +67,7 @@ formatter.examples({
         "",
         "123123123123"
       ],
-      "line": 17,
+      "line": 16,
       "id": "login-page;verify-the-functions-of-login-page;;3"
     },
     {
@@ -81,7 +75,7 @@ formatter.examples({
         "",
         ""
       ],
-      "line": 18,
+      "line": 17,
       "id": "login-page;verify-the-functions-of-login-page;;4"
     }
   ],
@@ -103,11 +97,11 @@ formatter.match({
   "location": "LoginSteps.openTheCanvisWebapp()"
 });
 formatter.result({
-  "duration": 5725939100,
+  "duration": 5297035300,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 16,
+  "line": 15,
   "name": "Verify the functions of Login page",
   "description": "",
   "id": "login-page;verify-the-functions-of-login-page;;2",
@@ -116,16 +110,12 @@ formatter.scenario({
   "tags": [
     {
       "line": 1,
-      "name": "@Login"
-    },
-    {
-      "line": 7,
-      "name": "@SignIn"
+      "name": "@LoginScreen"
     }
   ]
 });
 formatter.step({
-  "line": 9,
+  "line": 8,
   "name": "I input to Email address with \"khanh@2203.com\"",
   "matchedColumns": [
     0
@@ -133,7 +123,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.step({
-  "line": 10,
+  "line": 9,
   "name": "I input to Password with \"\"",
   "matchedColumns": [
     1
@@ -141,12 +131,12 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 11,
+  "line": 10,
   "name": "I click to SignIn button",
   "keyword": "And "
 });
 formatter.step({
-  "line": 12,
+  "line": 11,
   "name": "I verify the error message is displayed",
   "keyword": "Then "
 });
@@ -160,7 +150,7 @@ formatter.match({
   "location": "LoginSteps.iInputToEmailAddressWith(String)"
 });
 formatter.result({
-  "duration": 113438700,
+  "duration": 112913700,
   "status": "passed"
 });
 formatter.match({
@@ -173,21 +163,21 @@ formatter.match({
   "location": "LoginSteps.iInputToPasswordWith(String)"
 });
 formatter.result({
-  "duration": 74716800,
+  "duration": 76191600,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.iClickToSignInButton()"
 });
 formatter.result({
-  "duration": 869920800,
+  "duration": 1692900700,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.iVerifyTheErrorMessageIsDisplayed()"
 });
 formatter.result({
-  "duration": 37695600,
+  "duration": 46253600,
   "status": "passed"
 });
 formatter.background({
@@ -206,11 +196,11 @@ formatter.match({
   "location": "LoginSteps.openTheCanvisWebapp()"
 });
 formatter.result({
-  "duration": 91800,
+  "duration": 242100,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 17,
+  "line": 16,
   "name": "Verify the functions of Login page",
   "description": "",
   "id": "login-page;verify-the-functions-of-login-page;;3",
@@ -219,16 +209,12 @@ formatter.scenario({
   "tags": [
     {
       "line": 1,
-      "name": "@Login"
-    },
-    {
-      "line": 7,
-      "name": "@SignIn"
+      "name": "@LoginScreen"
     }
   ]
 });
 formatter.step({
-  "line": 9,
+  "line": 8,
   "name": "I input to Email address with \"\"",
   "matchedColumns": [
     0
@@ -236,7 +222,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.step({
-  "line": 10,
+  "line": 9,
   "name": "I input to Password with \"123123123123\"",
   "matchedColumns": [
     1
@@ -244,12 +230,12 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 11,
+  "line": 10,
   "name": "I click to SignIn button",
   "keyword": "And "
 });
 formatter.step({
-  "line": 12,
+  "line": 11,
   "name": "I verify the error message is displayed",
   "keyword": "Then "
 });
@@ -263,7 +249,7 @@ formatter.match({
   "location": "LoginSteps.iInputToEmailAddressWith(String)"
 });
 formatter.result({
-  "duration": 71458000,
+  "duration": 79131100,
   "status": "passed"
 });
 formatter.match({
@@ -276,21 +262,21 @@ formatter.match({
   "location": "LoginSteps.iInputToPasswordWith(String)"
 });
 formatter.result({
-  "duration": 80064500,
+  "duration": 77066600,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.iClickToSignInButton()"
 });
 formatter.result({
-  "duration": 1985071000,
+  "duration": 932549900,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.iVerifyTheErrorMessageIsDisplayed()"
 });
 formatter.result({
-  "duration": 35246000,
+  "duration": 39588100,
   "status": "passed"
 });
 formatter.background({
@@ -309,11 +295,11 @@ formatter.match({
   "location": "LoginSteps.openTheCanvisWebapp()"
 });
 formatter.result({
-  "duration": 52800,
+  "duration": 68300,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 18,
+  "line": 17,
   "name": "Verify the functions of Login page",
   "description": "",
   "id": "login-page;verify-the-functions-of-login-page;;4",
@@ -322,16 +308,12 @@ formatter.scenario({
   "tags": [
     {
       "line": 1,
-      "name": "@Login"
-    },
-    {
-      "line": 7,
-      "name": "@SignIn"
+      "name": "@LoginScreen"
     }
   ]
 });
 formatter.step({
-  "line": 9,
+  "line": 8,
   "name": "I input to Email address with \"\"",
   "matchedColumns": [
     0
@@ -339,7 +321,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.step({
-  "line": 10,
+  "line": 9,
   "name": "I input to Password with \"\"",
   "matchedColumns": [
     1
@@ -347,12 +329,12 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 11,
+  "line": 10,
   "name": "I click to SignIn button",
   "keyword": "And "
 });
 formatter.step({
-  "line": 12,
+  "line": 11,
   "name": "I verify the error message is displayed",
   "keyword": "Then "
 });
@@ -366,7 +348,7 @@ formatter.match({
   "location": "LoginSteps.iInputToEmailAddressWith(String)"
 });
 formatter.result({
-  "duration": 70286600,
+  "duration": 68786800,
   "status": "passed"
 });
 formatter.match({
@@ -379,59 +361,53 @@ formatter.match({
   "location": "LoginSteps.iInputToPasswordWith(String)"
 });
 formatter.result({
-  "duration": 72190700,
+  "duration": 70348100,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.iClickToSignInButton()"
 });
 formatter.result({
-  "duration": 1522990200,
+  "duration": 847633600,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.iVerifyTheErrorMessageIsDisplayed()"
 });
 formatter.result({
-  "duration": 36492700,
+  "duration": 41849500,
   "status": "passed"
 });
 formatter.scenarioOutline({
-  "line": 21,
+  "line": 19,
   "name": "Verify login successfully",
   "description": "",
   "id": "login-page;verify-login-successfully",
   "type": "scenario_outline",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "line": 20,
-      "name": "@LoginSuccessfully"
-    }
-  ]
+  "keyword": "Scenario Outline"
 });
 formatter.step({
-  "line": 22,
+  "line": 20,
   "name": "I input to Email address with \"\u003cemail\u003e\"",
   "keyword": "When "
 });
 formatter.step({
-  "line": 23,
+  "line": 21,
   "name": "I input to Password with \"\u003cpassword\u003e\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 24,
+  "line": 22,
   "name": "I click to SignIn button",
   "keyword": "And "
 });
 formatter.step({
-  "line": 25,
+  "line": 23,
   "name": "I verify Project screen",
   "keyword": "Then "
 });
 formatter.examples({
-  "line": 27,
+  "line": 25,
   "name": "",
   "description": "",
   "id": "login-page;verify-login-successfully;",
@@ -441,7 +417,7 @@ formatter.examples({
         "email",
         "password"
       ],
-      "line": 28,
+      "line": 26,
       "id": "login-page;verify-login-successfully;;1"
     },
     {
@@ -449,7 +425,7 @@ formatter.examples({
         "khanh@0409.com",
         "123123123123"
       ],
-      "line": 29,
+      "line": 27,
       "id": "login-page;verify-login-successfully;;2"
     }
   ],
@@ -471,11 +447,11 @@ formatter.match({
   "location": "LoginSteps.openTheCanvisWebapp()"
 });
 formatter.result({
-  "duration": 80000,
+  "duration": 66400,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 29,
+  "line": 27,
   "name": "Verify login successfully",
   "description": "",
   "id": "login-page;verify-login-successfully;;2",
@@ -484,16 +460,12 @@ formatter.scenario({
   "tags": [
     {
       "line": 1,
-      "name": "@Login"
-    },
-    {
-      "line": 20,
-      "name": "@LoginSuccessfully"
+      "name": "@LoginScreen"
     }
   ]
 });
 formatter.step({
-  "line": 22,
+  "line": 20,
   "name": "I input to Email address with \"khanh@0409.com\"",
   "matchedColumns": [
     0
@@ -501,7 +473,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.step({
-  "line": 23,
+  "line": 21,
   "name": "I input to Password with \"123123123123\"",
   "matchedColumns": [
     1
@@ -509,12 +481,12 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 24,
+  "line": 22,
   "name": "I click to SignIn button",
   "keyword": "And "
 });
 formatter.step({
-  "line": 25,
+  "line": 23,
   "name": "I verify Project screen",
   "keyword": "Then "
 });
@@ -528,7 +500,7 @@ formatter.match({
   "location": "LoginSteps.iInputToEmailAddressWith(String)"
 });
 formatter.result({
-  "duration": 76345000,
+  "duration": 74474800,
   "status": "passed"
 });
 formatter.match({
@@ -541,21 +513,401 @@ formatter.match({
   "location": "LoginSteps.iInputToPasswordWith(String)"
 });
 formatter.result({
-  "duration": 83865100,
+  "duration": 78675800,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.iClickToSignInButton()"
 });
 formatter.result({
-  "duration": 1896870000,
+  "duration": 3286692900,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.iVerifyProjectScreen()"
 });
 formatter.result({
-  "duration": 312255900,
+  "duration": 322613400,
+  "status": "passed"
+});
+formatter.uri("resetPasswordScreen.feature");
+formatter.feature({
+  "line": 2,
+  "name": "Reset Password Page",
+  "description": "",
+  "id": "reset-password-page",
+  "keyword": "Feature",
+  "tags": [
+    {
+      "line": 1,
+      "name": "@ForgotScreen"
+    }
+  ]
+});
+formatter.scenarioOutline({
+  "line": 7,
+  "name": "Verify Forgot and Reset Password function",
+  "description": "",
+  "id": "reset-password-page;verify-forgot-and-reset-password-function",
+  "type": "scenario_outline",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 8,
+  "name": "I click to Forgot Password button",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 9,
+  "name": "I input to Email address in Reset Password Page with \"\u003cEmail\u003e\"",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 10,
+  "name": "I click to Reset Password button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 11,
+  "name": "I verify \"\u003cErrorResetMessage\u003e\" is displayed",
+  "keyword": "Then "
+});
+formatter.examples({
+  "line": 13,
+  "name": "",
+  "description": "",
+  "id": "reset-password-page;verify-forgot-and-reset-password-function;",
+  "rows": [
+    {
+      "cells": [
+        "Email",
+        "ErrorResetMessage"
+      ],
+      "line": 14,
+      "id": "reset-password-page;verify-forgot-and-reset-password-function;;1"
+    },
+    {
+      "cells": [
+        "",
+        "Please enter valid email address"
+      ],
+      "line": 15,
+      "id": "reset-password-page;verify-forgot-and-reset-password-function;;2"
+    },
+    {
+      "cells": [
+        "khanh@khanhduong.com",
+        "Email not found"
+      ],
+      "line": 16,
+      "id": "reset-password-page;verify-forgot-and-reset-password-function;;3"
+    },
+    {
+      "cells": [
+        "khanh@khanh",
+        "Please enter valid email address"
+      ],
+      "line": 17,
+      "id": "reset-password-page;verify-forgot-and-reset-password-function;;4"
+    }
+  ],
+  "keyword": "Examples"
+});
+formatter.background({
+  "line": 4,
+  "name": "",
+  "description": "",
+  "type": "background",
+  "keyword": "Background"
+});
+formatter.step({
+  "line": 5,
+  "name": "Open Canvis webapp",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "ResetPasswordSteps.openCanvisWebapp()"
+});
+formatter.result({
+  "duration": 1003487300,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 15,
+  "name": "Verify Forgot and Reset Password function",
+  "description": "",
+  "id": "reset-password-page;verify-forgot-and-reset-password-function;;2",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 1,
+      "name": "@ForgotScreen"
+    }
+  ]
+});
+formatter.step({
+  "line": 8,
+  "name": "I click to Forgot Password button",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 9,
+  "name": "I input to Email address in Reset Password Page with \"\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 10,
+  "name": "I click to Reset Password button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 11,
+  "name": "I verify \"Please enter valid email address\" is displayed",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "ResetPasswordSteps.iClickToForgotPasswordButton()"
+});
+formatter.result({
+  "duration": 451037500,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "",
+      "offset": 54
+    }
+  ],
+  "location": "ResetPasswordSteps.iInputToEmailAddressInResetPasswordPageWith(String)"
+});
+formatter.result({
+  "duration": 70280500,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ResetPasswordSteps.iClickToResetPasswordButton()"
+});
+formatter.result({
+  "duration": 573767600,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Please enter valid email address",
+      "offset": 10
+    }
+  ],
+  "location": "ResetPasswordSteps.iVerifyIsDisplayed(String)"
+});
+formatter.result({
+  "duration": 36657700,
+  "status": "passed"
+});
+formatter.background({
+  "line": 4,
+  "name": "",
+  "description": "",
+  "type": "background",
+  "keyword": "Background"
+});
+formatter.step({
+  "line": 5,
+  "name": "Open Canvis webapp",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "ResetPasswordSteps.openCanvisWebapp()"
+});
+formatter.result({
+  "duration": 325449300,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 16,
+  "name": "Verify Forgot and Reset Password function",
+  "description": "",
+  "id": "reset-password-page;verify-forgot-and-reset-password-function;;3",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 1,
+      "name": "@ForgotScreen"
+    }
+  ]
+});
+formatter.step({
+  "line": 8,
+  "name": "I click to Forgot Password button",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 9,
+  "name": "I input to Email address in Reset Password Page with \"khanh@khanhduong.com\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 10,
+  "name": "I click to Reset Password button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 11,
+  "name": "I verify \"Email not found\" is displayed",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "ResetPasswordSteps.iClickToForgotPasswordButton()"
+});
+formatter.result({
+  "duration": 430553300,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "khanh@khanhduong.com",
+      "offset": 54
+    }
+  ],
+  "location": "ResetPasswordSteps.iInputToEmailAddressInResetPasswordPageWith(String)"
+});
+formatter.result({
+  "duration": 76020500,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ResetPasswordSteps.iClickToResetPasswordButton()"
+});
+formatter.result({
+  "duration": 401143700,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Email not found",
+      "offset": 10
+    }
+  ],
+  "location": "ResetPasswordSteps.iVerifyIsDisplayed(String)"
+});
+formatter.result({
+  "duration": 45764400,
+  "status": "passed"
+});
+formatter.background({
+  "line": 4,
+  "name": "",
+  "description": "",
+  "type": "background",
+  "keyword": "Background"
+});
+formatter.step({
+  "line": 5,
+  "name": "Open Canvis webapp",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "ResetPasswordSteps.openCanvisWebapp()"
+});
+formatter.result({
+  "duration": 362042500,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 17,
+  "name": "Verify Forgot and Reset Password function",
+  "description": "",
+  "id": "reset-password-page;verify-forgot-and-reset-password-function;;4",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 1,
+      "name": "@ForgotScreen"
+    }
+  ]
+});
+formatter.step({
+  "line": 8,
+  "name": "I click to Forgot Password button",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 9,
+  "name": "I input to Email address in Reset Password Page with \"khanh@khanh\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 10,
+  "name": "I click to Reset Password button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 11,
+  "name": "I verify \"Please enter valid email address\" is displayed",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "ResetPasswordSteps.iClickToForgotPasswordButton()"
+});
+formatter.result({
+  "duration": 429230200,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "khanh@khanh",
+      "offset": 54
+    }
+  ],
+  "location": "ResetPasswordSteps.iInputToEmailAddressInResetPasswordPageWith(String)"
+});
+formatter.result({
+  "duration": 72818800,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ResetPasswordSteps.iClickToResetPasswordButton()"
+});
+formatter.result({
+  "duration": 398845500,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Please enter valid email address",
+      "offset": 10
+    }
+  ],
+  "location": "ResetPasswordSteps.iVerifyIsDisplayed(String)"
+});
+formatter.result({
+  "duration": 32771800,
   "status": "passed"
 });
 });

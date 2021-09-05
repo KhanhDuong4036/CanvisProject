@@ -1,6 +1,7 @@
 package stepDefinitions;
 
 import commons.BaseTest;
+import commons.GlobalConstants;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -23,6 +24,7 @@ public class ResetPasswordSteps extends BaseTest {
     @Given("^Open Canvis webapp$")
     public void openCanvisWebapp() {
         loginPage = PageGenerator.getLoginPage(driver);
+        driver.get(GlobalConstants.HRM_DB_URL);
     }
 
     @When("^I click to Forgot Password button$")
