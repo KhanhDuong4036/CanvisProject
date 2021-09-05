@@ -1,9 +1,9 @@
 [
   {
-    "line": 2,
+    "line": 1,
     "elements": [
       {
-        "line": 4,
+        "line": 3,
         "name": "",
         "description": "",
         "type": "background",
@@ -11,116 +11,269 @@
         "steps": [
           {
             "result": {
-              "duration": 6571258000,
-              "status": "passed"
+              "duration": 102728500,
+              "error_message": "java.lang.NullPointerException\r\n\tat stepDefinitions.ResetPasswordSteps.openForgotPasswordScreen(ResetPasswordSteps.java:20)\r\n\tat ✽.Given Open forgot password screen(resetPasswordScreen.feature:4)\r\n",
+              "status": "failed"
             },
-            "line": 5,
-            "name": "Open the Canvis webapp",
+            "line": 4,
+            "name": "Open forgot password screen",
             "match": {
-              "location": "LoginSteps.openTheCanvisWebapp()"
+              "location": "ResetPasswordSteps.openForgotPasswordScreen()"
             },
             "keyword": "Given "
           }
         ]
       },
       {
-        "line": 29,
-        "name": "Verify login successfully",
+        "line": 14,
+        "name": "Verify Forgot and Reset Password function",
         "description": "",
-        "id": "login-page;verify-login-successfully;;2",
+        "id": "reset-password-page;verify-forgot-and-reset-password-function;;2",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 118716200,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 22,
-            "name": "I input to Email address with \"khanh@0409.com\"",
+            "line": 8,
+            "name": "I input to Email address in Reset Password Page with \"\"",
             "match": {
               "arguments": [
                 {
-                  "val": "khanh@0409.com",
-                  "offset": 31
+                  "val": "",
+                  "offset": 54
                 }
               ],
-              "location": "LoginSteps.iInputToEmailAddressWith(String)"
+              "location": "ResetPasswordSteps.iInputToEmailAddressInResetPasswordPageWith(String)"
             },
             "matchedColumns": [
               0
             ],
-            "keyword": "When "
+            "keyword": "And "
           },
           {
             "result": {
-              "duration": 89024700,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 23,
-            "name": "I input to Password with \"123123123123\"",
+            "line": 9,
+            "name": "I click to Reset Password button",
+            "match": {
+              "location": "ResetPasswordSteps.iClickToResetPasswordButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I verify \"Please enter valid email address\" is displayed",
             "match": {
               "arguments": [
                 {
-                  "val": "123123123123",
-                  "offset": 26
+                  "val": "Please enter valid email address",
+                  "offset": 10
                 }
               ],
-              "location": "LoginSteps.iInputToPasswordWith(String)"
+              "location": "ResetPasswordSteps.iVerifyIsDisplayed(String)"
             },
             "matchedColumns": [
               1
             ],
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1994780400,
-              "status": "passed"
-            },
-            "line": 24,
-            "name": "I click to SignIn button",
-            "match": {
-              "location": "LoginSteps.iClickToSignInButton()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 3001195700,
-              "error_message": "java.lang.NullPointerException\r\n\tat java.util.Objects.requireNonNull(Objects.java:203)\r\n\tat org.openqa.selenium.support.ui.FluentWait.\u003cinit\u003e(FluentWait.java:106)\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.\u003cinit\u003e(WebDriverWait.java:85)\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.\u003cinit\u003e(WebDriverWait.java:45)\r\n\tat commons.BasePage.waitForElementVisible(BasePage.java:489)\r\n\tat pageObjects.ProjectScreenPO.isCreateProjectDisplayed(ProjectScreenPO.java:15)\r\n\tat stepDefinitions.ProjectScreenSteps.iVerifyProjectScreen(ProjectScreenSteps.java:17)\r\n\tat ✽.Then I verify Project screen(login.feature:25)\r\n",
-              "status": "failed"
-            },
-            "line": 25,
-            "name": "I verify Project screen",
-            "match": {
-              "location": "ProjectScreenSteps.iVerifyProjectScreen()"
-            },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "line": 1,
-            "name": "@Login"
+            "line": 6,
+            "name": "@ForgotAndResetPassword"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 186000,
+              "error_message": "java.lang.NullPointerException\r\n\tat stepDefinitions.ResetPasswordSteps.openForgotPasswordScreen(ResetPasswordSteps.java:20)\r\n\tat ✽.Given Open forgot password screen(resetPasswordScreen.feature:4)\r\n",
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "Open forgot password screen",
+            "match": {
+              "location": "ResetPasswordSteps.openForgotPasswordScreen()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Verify Forgot and Reset Password function",
+        "description": "",
+        "id": "reset-password-page;verify-forgot-and-reset-password-function;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "I input to Email address in Reset Password Page with \"khanh@khanhduong.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "khanh@khanhduong.com",
+                  "offset": 54
+                }
+              ],
+              "location": "ResetPasswordSteps.iInputToEmailAddressInResetPasswordPageWith(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
           },
           {
-            "line": 20,
-            "name": "@Create"
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I click to Reset Password button",
+            "match": {
+              "location": "ResetPasswordSteps.iClickToResetPasswordButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I verify \"Email not found\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Email not found",
+                  "offset": 10
+                }
+              ],
+              "location": "ResetPasswordSteps.iVerifyIsDisplayed(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@ForgotAndResetPassword"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 218400,
+              "error_message": "java.lang.NullPointerException\r\n\tat stepDefinitions.ResetPasswordSteps.openForgotPasswordScreen(ResetPasswordSteps.java:20)\r\n\tat ✽.Given Open forgot password screen(resetPasswordScreen.feature:4)\r\n",
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "Open forgot password screen",
+            "match": {
+              "location": "ResetPasswordSteps.openForgotPasswordScreen()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "Verify Forgot and Reset Password function",
+        "description": "",
+        "id": "reset-password-page;verify-forgot-and-reset-password-function;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "I input to Email address in Reset Password Page with \"khanh@khanh\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "khanh@khanh",
+                  "offset": 54
+                }
+              ],
+              "location": "ResetPasswordSteps.iInputToEmailAddressInResetPasswordPageWith(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I click to Reset Password button",
+            "match": {
+              "location": "ResetPasswordSteps.iClickToResetPasswordButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I verify \"Please enter valid email address\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Please enter valid email address",
+                  "offset": 10
+                }
+              ],
+              "location": "ResetPasswordSteps.iVerifyIsDisplayed(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@ForgotAndResetPassword"
           }
         ]
       }
     ],
-    "name": "Login Page",
+    "name": "Reset Password Page",
     "description": "",
-    "id": "login-page",
+    "id": "reset-password-page",
     "keyword": "Feature",
-    "uri": "login.feature",
-    "tags": [
-      {
-        "line": 1,
-        "name": "@Login"
-      }
-    ]
+    "uri": "resetPasswordScreen.feature"
   }
 ]

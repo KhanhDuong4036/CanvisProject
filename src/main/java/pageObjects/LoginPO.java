@@ -29,4 +29,9 @@ public class LoginPO extends BasePage {
         waitForElementVisible(driver, LoginPageUIs.ERROR_MESSAGE);
         return isElementDisplayed(driver, LoginPageUIs.ERROR_MESSAGE);
     }
+
+    public void clickToForgotPasswordButton() {
+        waitForElementVisible(driver, LoginPageUIs.FORGOT_PASSWORD_BUTTON);
+        clickToElement(driver, LoginPageUIs.FORGOT_PASSWORD_BUTTON);
+    }
 }

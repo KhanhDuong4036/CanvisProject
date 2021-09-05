@@ -1,178 +1,334 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("login.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("resetPasswordScreen.feature");
 formatter.feature({
-  "line": 2,
-  "name": "Login Page",
+  "line": 1,
+  "name": "Reset Password Page",
   "description": "",
-  "id": "login-page",
-  "keyword": "Feature",
-  "tags": [
-    {
-      "line": 1,
-      "name": "@Login"
-    }
-  ]
+  "id": "reset-password-page",
+  "keyword": "Feature"
 });
 formatter.scenarioOutline({
-  "line": 21,
-  "name": "Verify login successfully",
+  "line": 7,
+  "name": "Verify Forgot and Reset Password function",
   "description": "",
-  "id": "login-page;verify-login-successfully",
+  "id": "reset-password-page;verify-forgot-and-reset-password-function",
   "type": "scenario_outline",
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "line": 20,
-      "name": "@Create"
+      "line": 6,
+      "name": "@ForgotAndResetPassword"
     }
   ]
 });
 formatter.step({
-  "line": 22,
-  "name": "I input to Email address with \"\u003cemail\u003e\"",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 23,
-  "name": "I input to Password with \"\u003cpassword\u003e\"",
+  "line": 8,
+  "name": "I input to Email address in Reset Password Page with \"\u003cEmail\u003e\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 24,
-  "name": "I click to SignIn button",
+  "line": 9,
+  "name": "I click to Reset Password button",
   "keyword": "And "
 });
 formatter.step({
-  "line": 25,
-  "name": "I verify Project screen",
+  "line": 10,
+  "name": "I verify \"\u003cErrorResetMessage\u003e\" is displayed",
   "keyword": "Then "
 });
 formatter.examples({
-  "line": 27,
+  "line": 12,
   "name": "",
   "description": "",
-  "id": "login-page;verify-login-successfully;",
+  "id": "reset-password-page;verify-forgot-and-reset-password-function;",
   "rows": [
     {
       "cells": [
-        "email",
-        "password"
+        "Email",
+        "ErrorResetMessage"
       ],
-      "line": 28,
-      "id": "login-page;verify-login-successfully;;1"
+      "line": 13,
+      "id": "reset-password-page;verify-forgot-and-reset-password-function;;1"
     },
     {
       "cells": [
-        "khanh@0409.com",
-        "123123123123"
+        "",
+        "Please enter valid email address"
       ],
-      "line": 29,
-      "id": "login-page;verify-login-successfully;;2"
+      "line": 14,
+      "id": "reset-password-page;verify-forgot-and-reset-password-function;;2"
+    },
+    {
+      "cells": [
+        "khanh@khanhduong.com",
+        "Email not found"
+      ],
+      "line": 15,
+      "id": "reset-password-page;verify-forgot-and-reset-password-function;;3"
+    },
+    {
+      "cells": [
+        "khanh@khanh",
+        "Please enter valid email address"
+      ],
+      "line": 16,
+      "id": "reset-password-page;verify-forgot-and-reset-password-function;;4"
     }
   ],
   "keyword": "Examples"
 });
 formatter.background({
-  "line": 4,
+  "line": 3,
   "name": "",
   "description": "",
   "type": "background",
   "keyword": "Background"
 });
 formatter.step({
-  "line": 5,
-  "name": "Open the Canvis webapp",
+  "line": 4,
+  "name": "Open forgot password screen",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "LoginSteps.openTheCanvisWebapp()"
+  "location": "ResetPasswordSteps.openForgotPasswordScreen()"
 });
 formatter.result({
-  "duration": 6571258000,
-  "status": "passed"
+  "duration": 102728500,
+  "error_message": "java.lang.NullPointerException\r\n\tat stepDefinitions.ResetPasswordSteps.openForgotPasswordScreen(ResetPasswordSteps.java:20)\r\n\tat ✽.Given Open forgot password screen(resetPasswordScreen.feature:4)\r\n",
+  "status": "failed"
 });
 formatter.scenario({
-  "line": 29,
-  "name": "Verify login successfully",
+  "line": 14,
+  "name": "Verify Forgot and Reset Password function",
   "description": "",
-  "id": "login-page;verify-login-successfully;;2",
+  "id": "reset-password-page;verify-forgot-and-reset-password-function;;2",
   "type": "scenario",
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "line": 1,
-      "name": "@Login"
-    },
-    {
-      "line": 20,
-      "name": "@Create"
+      "line": 6,
+      "name": "@ForgotAndResetPassword"
     }
   ]
 });
 formatter.step({
-  "line": 22,
-  "name": "I input to Email address with \"khanh@0409.com\"",
+  "line": 8,
+  "name": "I input to Email address in Reset Password Page with \"\"",
   "matchedColumns": [
     0
   ],
-  "keyword": "When "
+  "keyword": "And "
 });
 formatter.step({
-  "line": 23,
-  "name": "I input to Password with \"123123123123\"",
+  "line": 9,
+  "name": "I click to Reset Password button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 10,
+  "name": "I verify \"Please enter valid email address\" is displayed",
   "matchedColumns": [
     1
   ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 24,
-  "name": "I click to SignIn button",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 25,
-  "name": "I verify Project screen",
   "keyword": "Then "
 });
 formatter.match({
   "arguments": [
     {
-      "val": "khanh@0409.com",
-      "offset": 31
+      "val": "",
+      "offset": 54
     }
   ],
-  "location": "LoginSteps.iInputToEmailAddressWith(String)"
+  "location": "ResetPasswordSteps.iInputToEmailAddressInResetPasswordPageWith(String)"
 });
 formatter.result({
-  "duration": 118716200,
-  "status": "passed"
+  "status": "skipped"
+});
+formatter.match({
+  "location": "ResetPasswordSteps.iClickToResetPasswordButton()"
+});
+formatter.result({
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "123123123123",
-      "offset": 26
+      "val": "Please enter valid email address",
+      "offset": 10
     }
   ],
-  "location": "LoginSteps.iInputToPasswordWith(String)"
+  "location": "ResetPasswordSteps.iVerifyIsDisplayed(String)"
 });
 formatter.result({
-  "duration": 89024700,
-  "status": "passed"
+  "status": "skipped"
+});
+formatter.background({
+  "line": 3,
+  "name": "",
+  "description": "",
+  "type": "background",
+  "keyword": "Background"
+});
+formatter.step({
+  "line": 4,
+  "name": "Open forgot password screen",
+  "keyword": "Given "
 });
 formatter.match({
-  "location": "LoginSteps.iClickToSignInButton()"
+  "location": "ResetPasswordSteps.openForgotPasswordScreen()"
 });
 formatter.result({
-  "duration": 1994780400,
-  "status": "passed"
-});
-formatter.match({
-  "location": "ProjectScreenSteps.iVerifyProjectScreen()"
-});
-formatter.result({
-  "duration": 3001195700,
-  "error_message": "java.lang.NullPointerException\r\n\tat java.util.Objects.requireNonNull(Objects.java:203)\r\n\tat org.openqa.selenium.support.ui.FluentWait.\u003cinit\u003e(FluentWait.java:106)\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.\u003cinit\u003e(WebDriverWait.java:85)\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.\u003cinit\u003e(WebDriverWait.java:45)\r\n\tat commons.BasePage.waitForElementVisible(BasePage.java:489)\r\n\tat pageObjects.ProjectScreenPO.isCreateProjectDisplayed(ProjectScreenPO.java:15)\r\n\tat stepDefinitions.ProjectScreenSteps.iVerifyProjectScreen(ProjectScreenSteps.java:17)\r\n\tat ✽.Then I verify Project screen(login.feature:25)\r\n",
+  "duration": 186000,
+  "error_message": "java.lang.NullPointerException\r\n\tat stepDefinitions.ResetPasswordSteps.openForgotPasswordScreen(ResetPasswordSteps.java:20)\r\n\tat ✽.Given Open forgot password screen(resetPasswordScreen.feature:4)\r\n",
   "status": "failed"
+});
+formatter.scenario({
+  "line": 15,
+  "name": "Verify Forgot and Reset Password function",
+  "description": "",
+  "id": "reset-password-page;verify-forgot-and-reset-password-function;;3",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 6,
+      "name": "@ForgotAndResetPassword"
+    }
+  ]
+});
+formatter.step({
+  "line": 8,
+  "name": "I input to Email address in Reset Password Page with \"khanh@khanhduong.com\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 9,
+  "name": "I click to Reset Password button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 10,
+  "name": "I verify \"Email not found\" is displayed",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "Then "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "khanh@khanhduong.com",
+      "offset": 54
+    }
+  ],
+  "location": "ResetPasswordSteps.iInputToEmailAddressInResetPasswordPageWith(String)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "location": "ResetPasswordSteps.iClickToResetPasswordButton()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Email not found",
+      "offset": 10
+    }
+  ],
+  "location": "ResetPasswordSteps.iVerifyIsDisplayed(String)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.background({
+  "line": 3,
+  "name": "",
+  "description": "",
+  "type": "background",
+  "keyword": "Background"
+});
+formatter.step({
+  "line": 4,
+  "name": "Open forgot password screen",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "ResetPasswordSteps.openForgotPasswordScreen()"
+});
+formatter.result({
+  "duration": 218400,
+  "error_message": "java.lang.NullPointerException\r\n\tat stepDefinitions.ResetPasswordSteps.openForgotPasswordScreen(ResetPasswordSteps.java:20)\r\n\tat ✽.Given Open forgot password screen(resetPasswordScreen.feature:4)\r\n",
+  "status": "failed"
+});
+formatter.scenario({
+  "line": 16,
+  "name": "Verify Forgot and Reset Password function",
+  "description": "",
+  "id": "reset-password-page;verify-forgot-and-reset-password-function;;4",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 6,
+      "name": "@ForgotAndResetPassword"
+    }
+  ]
+});
+formatter.step({
+  "line": 8,
+  "name": "I input to Email address in Reset Password Page with \"khanh@khanh\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 9,
+  "name": "I click to Reset Password button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 10,
+  "name": "I verify \"Please enter valid email address\" is displayed",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "Then "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "khanh@khanh",
+      "offset": 54
+    }
+  ],
+  "location": "ResetPasswordSteps.iInputToEmailAddressInResetPasswordPageWith(String)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "location": "ResetPasswordSteps.iClickToResetPasswordButton()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Please enter valid email address",
+      "offset": 10
+    }
+  ],
+  "location": "ResetPasswordSteps.iVerifyIsDisplayed(String)"
+});
+formatter.result({
+  "status": "skipped"
 });
 });

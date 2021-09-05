@@ -1,5 +1,7 @@
 package stepDefinitions;
 
+import commons.BaseTest;
+import cucumber.api.PendingException;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -9,28 +11,26 @@ import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import pageObjects.LoginPO;
 import pageObjects.PageGenerator;
+import pageObjects.ProjectScreenPO;
+import pageObjects.ResetPasswordPO;
 
-public class LoginSteps {
+public class LoginSteps extends BaseTest {
     WebDriver driver;
     LoginPO loginPage;
-
-    public LoginSteps() {
-        driver = Hooks.openAndQuitBrowser();
-    }
+    ProjectScreenPO projectScreen;
 
     @Given("^Open the Canvis webapp$")
     public void openTheCanvisWebapp() {
         loginPage = PageGenerator.getLoginPage(driver);
-
     }
 
     @When("^I input to Email address with \"([^\"]*)\"$")
-    public void iInputToEmailAddressWith(String email)  {
+    public void iInputToEmailAddressWith(String email) {
         loginPage.inputToEmailTextbox(email);
     }
 
     @And("^I input to Password with \"([^\"]*)\"$")
-    public void iInputToPasswordWith(String password)  {
+    public void iInputToPasswordWith(String password) {
         loginPage.inputToPasswordTextbox(password);
 
     }
@@ -45,4 +45,16 @@ public class LoginSteps {
     public void iVerifyTheErrorMessageIsDisplayed() {
         Assert.assertTrue(loginPage.isErrorMessageDisplayed());
     }
+
+    @Then("^I verify Project screen$")
+    public void iVerifyProjectScreen() {
+        projectScreen = PageGenerator.getProjectScreen(driver);
+        verifyTrue(projectScreen.isCreateProjectDisplayed());
+    }
+
+    @When("^I click to Forgot Password button$")
+    public void iClickToForgotPasswordButton() {
+        loginPage.clickToForgotPasswordButton();
+    }
+
 }

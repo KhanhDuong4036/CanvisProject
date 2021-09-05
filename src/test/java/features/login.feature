@@ -17,7 +17,7 @@ Feature: Login Page
       |                | 123123123123 |
       |                |              |
 
-  @Create
+  @LoginSuccessfully
   Scenario Outline: Verify login successfully
     When I input to Email address with "<email>"
     And I input to Password with "<password>"
@@ -27,3 +27,4 @@ Feature: Login Page
     Examples:
       | email          | password     |
       | khanh@0409.com | 123123123123 |
+

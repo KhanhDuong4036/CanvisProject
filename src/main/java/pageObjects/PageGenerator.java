@@ -11,4 +11,8 @@ public class PageGenerator {
     public static ProjectScreenPO getProjectScreen (WebDriver driver) {
         return new ProjectScreenPO(driver);
     }
+
+    public static ResetPasswordPO getResetPasswordPage (WebDriver driver) {
+        return new ResetPasswordPO(driver);
+    }
 }
