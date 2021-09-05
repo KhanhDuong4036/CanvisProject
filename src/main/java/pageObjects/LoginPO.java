@@ -31,7 +31,7 @@ public class LoginPO extends BasePage {
     }
 
     public void clickToForgotPasswordButton() {
-        waitForElementVisible(driver, LoginPageUIs.FORGOT_PASSWORD_BUTTON);
+        waitForElementClickable(driver, LoginPageUIs.FORGOT_PASSWORD_BUTTON);
         clickToElement(driver, LoginPageUIs.FORGOT_PASSWORD_BUTTON);
     }
 }

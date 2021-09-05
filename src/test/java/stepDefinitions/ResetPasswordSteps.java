@@ -5,6 +5,7 @@ import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import cucumberOptions.Hooks;
 import org.openqa.selenium.WebDriver;
 import pageObjects.LoginPO;
 import pageObjects.PageGenerator;
@@ -15,14 +16,28 @@ public class ResetPasswordSteps extends BaseTest {
     LoginPO loginPage;
     ResetPasswordPO resetPasswordPage;
 
-    @Given("^Open forgot password screen$")
-    public void openForgotPasswordScreen() {
+    public ResetPasswordSteps() {
+        driver = Hooks.openAndQuitBrowser();
+    }
+
+    @Given("^Open Canvis webapp$")
+    public void openCanvisWebapp() {
+        loginPage = PageGenerator.getLoginPage(driver);
+    }
+
+    @When("^I click to Forgot Password button$")
+    public void iClickToForgotPasswordButton() {
         loginPage.clickToForgotPasswordButton();
         resetPasswordPage = PageGenerator.getResetPasswordPage(driver);
         verifyTrue(resetPasswordPage.resetPasswordDisplayedTiTle());
     }
 
-    @And("^I click to Reset Password button$")
+    @When("^I input to Email address in Reset Password Page with \"([^\"]*)\"$")
+    public void iInputToEmailAddressInResetPasswordPageWith(String emailReset) {
+        resetPasswordPage.inputToEmailResetTextBox(emailReset);
+    }
+
+    @When("^I click to Reset Password button$")
     public void iClickToResetPasswordButton() {
         resetPasswordPage.clickToResetPasswordButton();
     }
@@ -32,10 +47,8 @@ public class ResetPasswordSteps extends BaseTest {
         verifyTrue(resetPasswordPage.errorResetMessageDisplayed(errorMessage));
     }
 
-    @When("^I input to Email address in Reset Password Page with \"([^\"]*)\"$")
-    public void iInputToEmailAddressInResetPasswordPageWith(String emailReset) {
-        resetPasswordPage.inputToEmailResetTextBox(emailReset);
-    }
+
+
 
 
 }

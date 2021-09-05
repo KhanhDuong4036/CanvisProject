@@ -1,9 +1,9 @@
 [
   {
-    "line": 1,
+    "line": 2,
     "elements": [
       {
-        "line": 3,
+        "line": 4,
         "name": "",
         "description": "",
         "type": "background",
@@ -11,192 +11,13 @@
         "steps": [
           {
             "result": {
-              "duration": 102728500,
-              "error_message": "java.lang.NullPointerException\r\n\tat stepDefinitions.ResetPasswordSteps.openForgotPasswordScreen(ResetPasswordSteps.java:20)\r\n\tat ✽.Given Open forgot password screen(resetPasswordScreen.feature:4)\r\n",
-              "status": "failed"
+              "duration": 5725939100,
+              "status": "passed"
             },
-            "line": 4,
-            "name": "Open forgot password screen",
+            "line": 5,
+            "name": "Open the Canvis webapp",
             "match": {
-              "location": "ResetPasswordSteps.openForgotPasswordScreen()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "line": 14,
-        "name": "Verify Forgot and Reset Password function",
-        "description": "",
-        "id": "reset-password-page;verify-forgot-and-reset-password-function;;2",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 8,
-            "name": "I input to Email address in Reset Password Page with \"\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "",
-                  "offset": 54
-                }
-              ],
-              "location": "ResetPasswordSteps.iInputToEmailAddressInResetPasswordPageWith(String)"
-            },
-            "matchedColumns": [
-              0
-            ],
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 9,
-            "name": "I click to Reset Password button",
-            "match": {
-              "location": "ResetPasswordSteps.iClickToResetPasswordButton()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 10,
-            "name": "I verify \"Please enter valid email address\" is displayed",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Please enter valid email address",
-                  "offset": 10
-                }
-              ],
-              "location": "ResetPasswordSteps.iVerifyIsDisplayed(String)"
-            },
-            "matchedColumns": [
-              1
-            ],
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "line": 6,
-            "name": "@ForgotAndResetPassword"
-          }
-        ]
-      },
-      {
-        "line": 3,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 186000,
-              "error_message": "java.lang.NullPointerException\r\n\tat stepDefinitions.ResetPasswordSteps.openForgotPasswordScreen(ResetPasswordSteps.java:20)\r\n\tat ✽.Given Open forgot password screen(resetPasswordScreen.feature:4)\r\n",
-              "status": "failed"
-            },
-            "line": 4,
-            "name": "Open forgot password screen",
-            "match": {
-              "location": "ResetPasswordSteps.openForgotPasswordScreen()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "line": 15,
-        "name": "Verify Forgot and Reset Password function",
-        "description": "",
-        "id": "reset-password-page;verify-forgot-and-reset-password-function;;3",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 8,
-            "name": "I input to Email address in Reset Password Page with \"khanh@khanhduong.com\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "khanh@khanhduong.com",
-                  "offset": 54
-                }
-              ],
-              "location": "ResetPasswordSteps.iInputToEmailAddressInResetPasswordPageWith(String)"
-            },
-            "matchedColumns": [
-              0
-            ],
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 9,
-            "name": "I click to Reset Password button",
-            "match": {
-              "location": "ResetPasswordSteps.iClickToResetPasswordButton()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 10,
-            "name": "I verify \"Email not found\" is displayed",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Email not found",
-                  "offset": 10
-                }
-              ],
-              "location": "ResetPasswordSteps.iVerifyIsDisplayed(String)"
-            },
-            "matchedColumns": [
-              1
-            ],
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "line": 6,
-            "name": "@ForgotAndResetPassword"
-          }
-        ]
-      },
-      {
-        "line": 3,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 218400,
-              "error_message": "java.lang.NullPointerException\r\n\tat stepDefinitions.ResetPasswordSteps.openForgotPasswordScreen(ResetPasswordSteps.java:20)\r\n\tat ✽.Given Open forgot password screen(resetPasswordScreen.feature:4)\r\n",
-              "status": "failed"
-            },
-            "line": 4,
-            "name": "Open forgot password screen",
-            "match": {
-              "location": "ResetPasswordSteps.openForgotPasswordScreen()"
+              "location": "LoginSteps.openTheCanvisWebapp()"
             },
             "keyword": "Given "
           }
@@ -204,76 +25,422 @@
       },
       {
         "line": 16,
-        "name": "Verify Forgot and Reset Password function",
+        "name": "Verify the functions of Login page",
         "description": "",
-        "id": "reset-password-page;verify-forgot-and-reset-password-function;;4",
+        "id": "login-page;verify-the-functions-of-login-page;;2",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 113438700,
+              "status": "passed"
             },
-            "line": 8,
-            "name": "I input to Email address in Reset Password Page with \"khanh@khanh\"",
+            "line": 9,
+            "name": "I input to Email address with \"khanh@2203.com\"",
             "match": {
               "arguments": [
                 {
-                  "val": "khanh@khanh",
-                  "offset": 54
+                  "val": "khanh@2203.com",
+                  "offset": 31
                 }
               ],
-              "location": "ResetPasswordSteps.iInputToEmailAddressInResetPasswordPageWith(String)"
+              "location": "LoginSteps.iInputToEmailAddressWith(String)"
             },
             "matchedColumns": [
               0
             ],
-            "keyword": "And "
+            "keyword": "When "
           },
           {
             "result": {
-              "status": "skipped"
-            },
-            "line": 9,
-            "name": "I click to Reset Password button",
-            "match": {
-              "location": "ResetPasswordSteps.iClickToResetPasswordButton()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "skipped"
+              "duration": 74716800,
+              "status": "passed"
             },
             "line": 10,
-            "name": "I verify \"Please enter valid email address\" is displayed",
+            "name": "I input to Password with \"\"",
             "match": {
               "arguments": [
                 {
-                  "val": "Please enter valid email address",
-                  "offset": 10
+                  "val": "",
+                  "offset": 26
                 }
               ],
-              "location": "ResetPasswordSteps.iVerifyIsDisplayed(String)"
+              "location": "LoginSteps.iInputToPasswordWith(String)"
             },
             "matchedColumns": [
               1
             ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 869920800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click to SignIn button",
+            "match": {
+              "location": "LoginSteps.iClickToSignInButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 37695600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I verify the error message is displayed",
+            "match": {
+              "location": "LoginSteps.iVerifyTheErrorMessageIsDisplayed()"
+            },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "line": 6,
-            "name": "@ForgotAndResetPassword"
+            "line": 1,
+            "name": "@Login"
+          },
+          {
+            "line": 7,
+            "name": "@SignIn"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 91800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open the Canvis webapp",
+            "match": {
+              "location": "LoginSteps.openTheCanvisWebapp()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "Verify the functions of Login page",
+        "description": "",
+        "id": "login-page;verify-the-functions-of-login-page;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 71458000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I input to Email address with \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 31
+                }
+              ],
+              "location": "LoginSteps.iInputToEmailAddressWith(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 80064500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I input to Password with \"123123123123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123123123123",
+                  "offset": 26
+                }
+              ],
+              "location": "LoginSteps.iInputToPasswordWith(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1985071000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click to SignIn button",
+            "match": {
+              "location": "LoginSteps.iClickToSignInButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 35246000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I verify the error message is displayed",
+            "match": {
+              "location": "LoginSteps.iVerifyTheErrorMessageIsDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Login"
+          },
+          {
+            "line": 7,
+            "name": "@SignIn"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 52800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open the Canvis webapp",
+            "match": {
+              "location": "LoginSteps.openTheCanvisWebapp()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "Verify the functions of Login page",
+        "description": "",
+        "id": "login-page;verify-the-functions-of-login-page;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 70286600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I input to Email address with \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 31
+                }
+              ],
+              "location": "LoginSteps.iInputToEmailAddressWith(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 72190700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I input to Password with \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 26
+                }
+              ],
+              "location": "LoginSteps.iInputToPasswordWith(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1522990200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click to SignIn button",
+            "match": {
+              "location": "LoginSteps.iClickToSignInButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 36492700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I verify the error message is displayed",
+            "match": {
+              "location": "LoginSteps.iVerifyTheErrorMessageIsDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Login"
+          },
+          {
+            "line": 7,
+            "name": "@SignIn"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 80000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open the Canvis webapp",
+            "match": {
+              "location": "LoginSteps.openTheCanvisWebapp()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 29,
+        "name": "Verify login successfully",
+        "description": "",
+        "id": "login-page;verify-login-successfully;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 76345000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I input to Email address with \"khanh@0409.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "khanh@0409.com",
+                  "offset": 31
+                }
+              ],
+              "location": "LoginSteps.iInputToEmailAddressWith(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 83865100,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I input to Password with \"123123123123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123123123123",
+                  "offset": 26
+                }
+              ],
+              "location": "LoginSteps.iInputToPasswordWith(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1896870000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I click to SignIn button",
+            "match": {
+              "location": "LoginSteps.iClickToSignInButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 312255900,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I verify Project screen",
+            "match": {
+              "location": "LoginSteps.iVerifyProjectScreen()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Login"
+          },
+          {
+            "line": 20,
+            "name": "@LoginSuccessfully"
           }
         ]
       }
     ],
-    "name": "Reset Password Page",
+    "name": "Login Page",
     "description": "",
-    "id": "reset-password-page",
+    "id": "login-page",
     "keyword": "Feature",
-    "uri": "resetPasswordScreen.feature"
+    "uri": "login.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Login"
+      }
+    ]
   }
 ]

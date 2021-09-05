@@ -12,12 +12,15 @@ import org.openqa.selenium.WebDriver;
 import pageObjects.LoginPO;
 import pageObjects.PageGenerator;
 import pageObjects.ProjectScreenPO;
-import pageObjects.ResetPasswordPO;
 
 public class LoginSteps extends BaseTest {
     WebDriver driver;
     LoginPO loginPage;
     ProjectScreenPO projectScreen;
+
+    public LoginSteps() {
+        driver = Hooks.openAndQuitBrowser();
+    }
 
     @Given("^Open the Canvis webapp$")
     public void openTheCanvisWebapp() {
@@ -51,10 +54,4 @@ public class LoginSteps extends BaseTest {
         projectScreen = PageGenerator.getProjectScreen(driver);
         verifyTrue(projectScreen.isCreateProjectDisplayed());
     }
-
-    @When("^I click to Forgot Password button$")
-    public void iClickToForgotPasswordButton() {
-        loginPage.clickToForgotPasswordButton();
-    }
-
 }

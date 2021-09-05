@@ -1,11 +1,12 @@
 Feature:  Reset Password Page
 
   Background:
-    Given Open forgot password screen
+    Given Open Canvis webapp
 
   @ForgotAndResetPassword
   Scenario Outline: Verify Forgot and Reset Password function
-    And I input to Email address in Reset Password Page with "<Email>"
+    When I click to Forgot Password button
+    When I input to Email address in Reset Password Page with "<Email>"
     And I click to Reset Password button
     Then I verify "<ErrorResetMessage>" is displayed
 
