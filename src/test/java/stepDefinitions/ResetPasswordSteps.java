@@ -24,7 +24,6 @@ public class ResetPasswordSteps extends BaseTest {
     @Given("^Open Canvis webapp$")
     public void openCanvisWebapp() {
         loginPage = PageGenerator.getLoginPage(driver);
-        driver.get(GlobalConstants.HRM_DB_URL);
     }
 
     @When("^I click to Forgot Password button$")

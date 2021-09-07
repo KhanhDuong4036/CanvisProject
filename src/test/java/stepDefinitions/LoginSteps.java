@@ -1,7 +1,6 @@
 package stepDefinitions;
 
 import commons.BaseTest;
-import cucumber.api.PendingException;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -35,13 +34,11 @@ public class LoginSteps extends BaseTest {
     @And("^I input to Password with \"([^\"]*)\"$")
     public void iInputToPasswordWith(String password) {
         loginPage.inputToPasswordTextbox(password);
-
     }
 
     @And("^I click to SignIn button$")
     public void iClickToSignInButton() {
         loginPage.clickToSignInButton();
-
     }
 
     @Then("^I verify the error message is displayed$")

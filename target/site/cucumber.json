@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5297035300,
+              "duration": 11332130500,
               "status": "passed"
             },
             "line": 5,
@@ -33,7 +33,7 @@
         "steps": [
           {
             "result": {
-              "duration": 112913700,
+              "duration": 116083300,
               "status": "passed"
             },
             "line": 8,
@@ -54,7 +54,7 @@
           },
           {
             "result": {
-              "duration": 76191600,
+              "duration": 84195400,
               "status": "passed"
             },
             "line": 9,
@@ -75,7 +75,7 @@
           },
           {
             "result": {
-              "duration": 1692900700,
+              "duration": 2586917200,
               "status": "passed"
             },
             "line": 10,
@@ -87,110 +87,7 @@
           },
           {
             "result": {
-              "duration": 46253600,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "I verify the error message is displayed",
-            "match": {
-              "location": "LoginSteps.iVerifyTheErrorMessageIsDisplayed()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "line": 1,
-            "name": "@LoginScreen"
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 242100,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "Open the Canvis webapp",
-            "match": {
-              "location": "LoginSteps.openTheCanvisWebapp()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "line": 16,
-        "name": "Verify the functions of Login page",
-        "description": "",
-        "id": "login-page;verify-the-functions-of-login-page;;3",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 79131100,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "I input to Email address with \"\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "",
-                  "offset": 31
-                }
-              ],
-              "location": "LoginSteps.iInputToEmailAddressWith(String)"
-            },
-            "matchedColumns": [
-              0
-            ],
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 77066600,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "I input to Password with \"123123123123\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "123123123123",
-                  "offset": 26
-                }
-              ],
-              "location": "LoginSteps.iInputToPasswordWith(String)"
-            },
-            "matchedColumns": [
-              1
-            ],
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 932549900,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "I click to SignIn button",
-            "match": {
-              "location": "LoginSteps.iClickToSignInButton()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 39588100,
+              "duration": 37969200,
               "status": "passed"
             },
             "line": 11,
@@ -230,16 +127,16 @@
         ]
       },
       {
-        "line": 17,
+        "line": 16,
         "name": "Verify the functions of Login page",
         "description": "",
-        "id": "login-page;verify-the-functions-of-login-page;;4",
+        "id": "login-page;verify-the-functions-of-login-page;;3",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 68786800,
+              "duration": 80403800,
               "status": "passed"
             },
             "line": 8,
@@ -260,15 +157,15 @@
           },
           {
             "result": {
-              "duration": 70348100,
+              "duration": 81501100,
               "status": "passed"
             },
             "line": 9,
-            "name": "I input to Password with \"\"",
+            "name": "I input to Password with \"123123123123\"",
             "match": {
               "arguments": [
                 {
-                  "val": "",
+                  "val": "123123123123",
                   "offset": 26
                 }
               ],
@@ -281,7 +178,7 @@
           },
           {
             "result": {
-              "duration": 847633600,
+              "duration": 712040700,
               "status": "passed"
             },
             "line": 10,
@@ -293,7 +190,7 @@
           },
           {
             "result": {
-              "duration": 41849500,
+              "duration": 37108200,
               "status": "passed"
             },
             "line": 11,
@@ -320,7 +217,110 @@
         "steps": [
           {
             "result": {
-              "duration": 66400,
+              "duration": 69400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open the Canvis webapp",
+            "match": {
+              "location": "LoginSteps.openTheCanvisWebapp()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "Verify the functions of Login page",
+        "description": "",
+        "id": "login-page;verify-the-functions-of-login-page;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 70268400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I input to Email address with \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 31
+                }
+              ],
+              "location": "LoginSteps.iInputToEmailAddressWith(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 69162100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I input to Password with \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 26
+                }
+              ],
+              "location": "LoginSteps.iInputToPasswordWith(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 642458700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click to SignIn button",
+            "match": {
+              "location": "LoginSteps.iClickToSignInButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 44579600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I verify the error message is displayed",
+            "match": {
+              "location": "LoginSteps.iVerifyTheErrorMessageIsDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@LoginScreen"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 53000,
               "status": "passed"
             },
             "line": 5,
@@ -342,7 +342,7 @@
         "steps": [
           {
             "result": {
-              "duration": 74474800,
+              "duration": 82889300,
               "status": "passed"
             },
             "line": 20,
@@ -363,7 +363,7 @@
           },
           {
             "result": {
-              "duration": 78675800,
+              "duration": 78548400,
               "status": "passed"
             },
             "line": 21,
@@ -384,7 +384,7 @@
           },
           {
             "result": {
-              "duration": 3286692900,
+              "duration": 16488210800,
               "status": "passed"
             },
             "line": 22,
@@ -396,7 +396,7 @@
           },
           {
             "result": {
-              "duration": 322613400,
+              "duration": 1159373500,
               "status": "passed"
             },
             "line": 23,
@@ -439,7 +439,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1003487300,
+              "duration": 1043854000,
               "status": "passed"
             },
             "line": 5,
@@ -461,7 +461,7 @@
         "steps": [
           {
             "result": {
-              "duration": 451037500,
+              "duration": 1734140200,
               "status": "passed"
             },
             "line": 8,
@@ -473,7 +473,7 @@
           },
           {
             "result": {
-              "duration": 70280500,
+              "duration": 67407800,
               "status": "passed"
             },
             "line": 9,
@@ -494,7 +494,7 @@
           },
           {
             "result": {
-              "duration": 573767600,
+              "duration": 371521500,
               "status": "passed"
             },
             "line": 10,
@@ -506,7 +506,7 @@
           },
           {
             "result": {
-              "duration": 36657700,
+              "duration": 46716600,
               "status": "passed"
             },
             "line": 11,
@@ -542,7 +542,7 @@
         "steps": [
           {
             "result": {
-              "duration": 325449300,
+              "duration": 324639600,
               "status": "passed"
             },
             "line": 5,
@@ -564,7 +564,7 @@
         "steps": [
           {
             "result": {
-              "duration": 430553300,
+              "duration": 405076400,
               "status": "passed"
             },
             "line": 8,
@@ -576,7 +576,7 @@
           },
           {
             "result": {
-              "duration": 76020500,
+              "duration": 81587300,
               "status": "passed"
             },
             "line": 9,
@@ -597,7 +597,7 @@
           },
           {
             "result": {
-              "duration": 401143700,
+              "duration": 1990273200,
               "status": "passed"
             },
             "line": 10,
@@ -609,7 +609,7 @@
           },
           {
             "result": {
-              "duration": 45764400,
+              "duration": 37438000,
               "status": "passed"
             },
             "line": 11,
@@ -645,7 +645,7 @@
         "steps": [
           {
             "result": {
-              "duration": 362042500,
+              "duration": 338389100,
               "status": "passed"
             },
             "line": 5,
@@ -667,7 +667,7 @@
         "steps": [
           {
             "result": {
-              "duration": 429230200,
+              "duration": 1500367600,
               "status": "passed"
             },
             "line": 8,
@@ -679,7 +679,7 @@
           },
           {
             "result": {
-              "duration": 72818800,
+              "duration": 74930300,
               "status": "passed"
             },
             "line": 9,
@@ -700,7 +700,7 @@
           },
           {
             "result": {
-              "duration": 398845500,
+              "duration": 1516166100,
               "status": "passed"
             },
             "line": 10,
@@ -712,7 +712,7 @@
           },
           {
             "result": {
-              "duration": 32771800,
+              "duration": 39821700,
               "status": "passed"
             },
             "line": 11,

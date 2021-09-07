@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="cucumberOptions.TestRunner" time="0.002" tests="42" errors="0" skipped="0" failures="0">
+<testsuite name="cucumberOptions.TestRunner" time="0.004" tests="42" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_261\jre\bin"/>
@@ -28,7 +28,7 @@
     <property name="os.name" value="Windows 10"/>
     <property name="classworlds.conf" value="D:\Automation\01 - Software\apache-maven-3.8.1-bin\apache-maven-3.8.1\bin\..\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_261\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Automation\01 - Software\cmder_mini\vendor\conemu-maximus5\ConEmu\Scripts;D:\Automation\01 - Software\cmder_mini\vendor\conemu-maximus5;D:\Automation\01 - Software\cmder_mini\vendor\conemu-maximus5\ConEmu;&quot;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\bin&quot;;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;D:\Python;C:\webdrivers;C:\Program Files\Java\jdk1.8.0_261\bin;D:\Automation\01 - Software\cmder_mini\bin;D:\Automation\01 - Software\apache-maven-3.8.1-bin\apache-maven-3.8.1\bin;D:\Automation\01 - Software\allure-2.14.0\allure-2.14.0\bin;D:\Python\Scripts\;D:\Python\;C:\Users\This PC\AppData\Local\Microsoft\WindowsApps;;D:\Python_Automation\PyCharm Community Edition 2020.2.3\bin;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2\bin;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_261\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;&quot;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\bin&quot;;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;D:\Python;C:\webdrivers;C:\Program Files\Java\jdk1.8.0_261\bin;D:\Automation\01 - Software\cmder_mini\bin;D:\Automation\01 - Software\apache-maven-3.8.1-bin\apache-maven-3.8.1\bin;D:\Automation\01 - Software\allure-2.14.0\allure-2.14.0\bin;D:\Python\Scripts\;D:\Python\;C:\Users\This PC\AppData\Local\Microsoft\WindowsApps;;D:\Python_Automation\PyCharm Community Edition 2020.2.3\bin;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2\bin;;."/>
     <property name="maven.conf" value="D:\Automation\01 - Software\apache-maven-3.8.1-bin\apache-maven-3.8.1\bin\../conf"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
@@ -93,17 +93,17 @@
   <testcase name="When I input to Email address in Reset Password Page with &quot;&quot;" classname="|  | Please enter valid email address |" time="0"/>
   <testcase name="And I click to Reset Password button" classname="|  | Please enter valid email address |" time="0"/>
   <testcase name="Then I verify &quot;Please enter valid email address&quot; is displayed" classname="|  | Please enter valid email address |" time="0"/>
-  <testcase name="|  | Please enter valid email address |" classname="|  | Please enter valid email address |" time="0"/>
+  <testcase name="|  | Please enter valid email address |" classname="|  | Please enter valid email address |" time="0.001"/>
   <testcase name="Given Open Canvis webapp" classname="| khanh@khanhduong.com | Email not found |" time="0"/>
   <testcase name="When I click to Forgot Password button" classname="| khanh@khanhduong.com | Email not found |" time="0"/>
   <testcase name="When I input to Email address in Reset Password Page with &quot;khanh@khanhduong.com&quot;" classname="| khanh@khanhduong.com | Email not found |" time="0"/>
   <testcase name="And I click to Reset Password button" classname="| khanh@khanhduong.com | Email not found |" time="0"/>
   <testcase name="Then I verify &quot;Email not found&quot; is displayed" classname="| khanh@khanhduong.com | Email not found |" time="0"/>
-  <testcase name="| khanh@khanhduong.com | Email not found |" classname="| khanh@khanhduong.com | Email not found |" time="0.001"/>
+  <testcase name="| khanh@khanhduong.com | Email not found |" classname="| khanh@khanhduong.com | Email not found |" time="0"/>
   <testcase name="Given Open Canvis webapp" classname="| khanh@khanh | Please enter valid email address |" time="0"/>
   <testcase name="When I click to Forgot Password button" classname="| khanh@khanh | Please enter valid email address |" time="0"/>
   <testcase name="When I input to Email address in Reset Password Page with &quot;khanh@khanh&quot;" classname="| khanh@khanh | Please enter valid email address |" time="0"/>
   <testcase name="And I click to Reset Password button" classname="| khanh@khanh | Please enter valid email address |" time="0"/>
-  <testcase name="Then I verify &quot;Please enter valid email address&quot; is displayed" classname="| khanh@khanh | Please enter valid email address |" time="0"/>
-  <testcase name="| khanh@khanh | Please enter valid email address |" classname="| khanh@khanh | Please enter valid email address |" time="0"/>
+  <testcase name="Then I verify &quot;Please enter valid email address&quot; is displayed" classname="| khanh@khanh | Please enter valid email address |" time="0.001"/>
+  <testcase name="| khanh@khanh | Please enter valid email address |" classname="| khanh@khanh | Please enter valid email address |" time="0.001"/>
 </testsuite>

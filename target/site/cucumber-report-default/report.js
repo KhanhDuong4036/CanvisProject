@@ -97,7 +97,7 @@ formatter.match({
   "location": "LoginSteps.openTheCanvisWebapp()"
 });
 formatter.result({
-  "duration": 5297035300,
+  "duration": 11332130500,
   "status": "passed"
 });
 formatter.scenario({
@@ -150,7 +150,7 @@ formatter.match({
   "location": "LoginSteps.iInputToEmailAddressWith(String)"
 });
 formatter.result({
-  "duration": 112913700,
+  "duration": 116083300,
   "status": "passed"
 });
 formatter.match({
@@ -163,21 +163,21 @@ formatter.match({
   "location": "LoginSteps.iInputToPasswordWith(String)"
 });
 formatter.result({
-  "duration": 76191600,
+  "duration": 84195400,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.iClickToSignInButton()"
 });
 formatter.result({
-  "duration": 1692900700,
+  "duration": 2586917200,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.iVerifyTheErrorMessageIsDisplayed()"
 });
 formatter.result({
-  "duration": 46253600,
+  "duration": 37969200,
   "status": "passed"
 });
 formatter.background({
@@ -196,7 +196,7 @@ formatter.match({
   "location": "LoginSteps.openTheCanvisWebapp()"
 });
 formatter.result({
-  "duration": 242100,
+  "duration": 68300,
   "status": "passed"
 });
 formatter.scenario({
@@ -249,7 +249,7 @@ formatter.match({
   "location": "LoginSteps.iInputToEmailAddressWith(String)"
 });
 formatter.result({
-  "duration": 79131100,
+  "duration": 80403800,
   "status": "passed"
 });
 formatter.match({
@@ -262,21 +262,21 @@ formatter.match({
   "location": "LoginSteps.iInputToPasswordWith(String)"
 });
 formatter.result({
-  "duration": 77066600,
+  "duration": 81501100,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.iClickToSignInButton()"
 });
 formatter.result({
-  "duration": 932549900,
+  "duration": 712040700,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.iVerifyTheErrorMessageIsDisplayed()"
 });
 formatter.result({
-  "duration": 39588100,
+  "duration": 37108200,
   "status": "passed"
 });
 formatter.background({
@@ -295,7 +295,7 @@ formatter.match({
   "location": "LoginSteps.openTheCanvisWebapp()"
 });
 formatter.result({
-  "duration": 68300,
+  "duration": 69400,
   "status": "passed"
 });
 formatter.scenario({
@@ -348,7 +348,7 @@ formatter.match({
   "location": "LoginSteps.iInputToEmailAddressWith(String)"
 });
 formatter.result({
-  "duration": 68786800,
+  "duration": 70268400,
   "status": "passed"
 });
 formatter.match({
@@ -361,21 +361,21 @@ formatter.match({
   "location": "LoginSteps.iInputToPasswordWith(String)"
 });
 formatter.result({
-  "duration": 70348100,
+  "duration": 69162100,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.iClickToSignInButton()"
 });
 formatter.result({
-  "duration": 847633600,
+  "duration": 642458700,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.iVerifyTheErrorMessageIsDisplayed()"
 });
 formatter.result({
-  "duration": 41849500,
+  "duration": 44579600,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -447,7 +447,7 @@ formatter.match({
   "location": "LoginSteps.openTheCanvisWebapp()"
 });
 formatter.result({
-  "duration": 66400,
+  "duration": 53000,
   "status": "passed"
 });
 formatter.scenario({
@@ -500,7 +500,7 @@ formatter.match({
   "location": "LoginSteps.iInputToEmailAddressWith(String)"
 });
 formatter.result({
-  "duration": 74474800,
+  "duration": 82889300,
   "status": "passed"
 });
 formatter.match({
@@ -513,21 +513,21 @@ formatter.match({
   "location": "LoginSteps.iInputToPasswordWith(String)"
 });
 formatter.result({
-  "duration": 78675800,
+  "duration": 78548400,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.iClickToSignInButton()"
 });
 formatter.result({
-  "duration": 3286692900,
+  "duration": 16488210800,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.iVerifyProjectScreen()"
 });
 formatter.result({
-  "duration": 322613400,
+  "duration": 1159373500,
   "status": "passed"
 });
 formatter.uri("resetPasswordScreen.feature");
@@ -629,7 +629,7 @@ formatter.match({
   "location": "ResetPasswordSteps.openCanvisWebapp()"
 });
 formatter.result({
-  "duration": 1003487300,
+  "duration": 1043854000,
   "status": "passed"
 });
 formatter.scenario({
@@ -676,7 +676,7 @@ formatter.match({
   "location": "ResetPasswordSteps.iClickToForgotPasswordButton()"
 });
 formatter.result({
-  "duration": 451037500,
+  "duration": 1734140200,
   "status": "passed"
 });
 formatter.match({
@@ -689,14 +689,14 @@ formatter.match({
   "location": "ResetPasswordSteps.iInputToEmailAddressInResetPasswordPageWith(String)"
 });
 formatter.result({
-  "duration": 70280500,
+  "duration": 67407800,
   "status": "passed"
 });
 formatter.match({
   "location": "ResetPasswordSteps.iClickToResetPasswordButton()"
 });
 formatter.result({
-  "duration": 573767600,
+  "duration": 371521500,
   "status": "passed"
 });
 formatter.match({
@@ -709,7 +709,7 @@ formatter.match({
   "location": "ResetPasswordSteps.iVerifyIsDisplayed(String)"
 });
 formatter.result({
-  "duration": 36657700,
+  "duration": 46716600,
   "status": "passed"
 });
 formatter.background({
@@ -728,7 +728,7 @@ formatter.match({
   "location": "ResetPasswordSteps.openCanvisWebapp()"
 });
 formatter.result({
-  "duration": 325449300,
+  "duration": 324639600,
   "status": "passed"
 });
 formatter.scenario({
@@ -775,7 +775,7 @@ formatter.match({
   "location": "ResetPasswordSteps.iClickToForgotPasswordButton()"
 });
 formatter.result({
-  "duration": 430553300,
+  "duration": 405076400,
   "status": "passed"
 });
 formatter.match({
@@ -788,14 +788,14 @@ formatter.match({
   "location": "ResetPasswordSteps.iInputToEmailAddressInResetPasswordPageWith(String)"
 });
 formatter.result({
-  "duration": 76020500,
+  "duration": 81587300,
   "status": "passed"
 });
 formatter.match({
   "location": "ResetPasswordSteps.iClickToResetPasswordButton()"
 });
 formatter.result({
-  "duration": 401143700,
+  "duration": 1990273200,
   "status": "passed"
 });
 formatter.match({
@@ -808,7 +808,7 @@ formatter.match({
   "location": "ResetPasswordSteps.iVerifyIsDisplayed(String)"
 });
 formatter.result({
-  "duration": 45764400,
+  "duration": 37438000,
   "status": "passed"
 });
 formatter.background({
@@ -827,7 +827,7 @@ formatter.match({
   "location": "ResetPasswordSteps.openCanvisWebapp()"
 });
 formatter.result({
-  "duration": 362042500,
+  "duration": 338389100,
   "status": "passed"
 });
 formatter.scenario({
@@ -874,7 +874,7 @@ formatter.match({
   "location": "ResetPasswordSteps.iClickToForgotPasswordButton()"
 });
 formatter.result({
-  "duration": 429230200,
+  "duration": 1500367600,
   "status": "passed"
 });
 formatter.match({
@@ -887,14 +887,14 @@ formatter.match({
   "location": "ResetPasswordSteps.iInputToEmailAddressInResetPasswordPageWith(String)"
 });
 formatter.result({
-  "duration": 72818800,
+  "duration": 74930300,
   "status": "passed"
 });
 formatter.match({
   "location": "ResetPasswordSteps.iClickToResetPasswordButton()"
 });
 formatter.result({
-  "duration": 398845500,
+  "duration": 1516166100,
   "status": "passed"
 });
 formatter.match({
@@ -907,7 +907,7 @@ formatter.match({
   "location": "ResetPasswordSteps.iVerifyIsDisplayed(String)"
 });
 formatter.result({
-  "duration": 32771800,
+  "duration": 39821700,
   "status": "passed"
 });
 });
